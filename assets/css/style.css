@@ -20,7 +20,15 @@ h1{
 }
 
 #namelink:hover{
-    color: #ccc;
+    color: #C14242;
+    animation-name: hover;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hover{
+    0% {color: #fff;}
+    100% {color: #C14242;}
 }
 
 header{
@@ -60,7 +68,10 @@ li{
 }
 
 li, .navitem:hover{
-    color: #ccc;
+    /* color: #C14242; */
+    animation-name: hover;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
 
 }
 
@@ -171,7 +182,10 @@ textarea{
 }
 
 .imgtext:hover{ 
-    color: #ccc;
+    /* color: #C14242; */
+    animation-name: hover;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
 }
 
 #hangman{
@@ -214,10 +228,11 @@ textarea{
     height: 50px;
     width: 50px;
     padding: 9px;
-    padding-top: 18px;
+    padding-top: 25px;
 }
 
 #sidebar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     float: right;
     height: 140px;
     width: 220px;
