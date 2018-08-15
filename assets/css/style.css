@@ -64,12 +64,25 @@ li, .navitem:hover{
 
 }
 
-.main-bio, .main-contact{
+.main-bio{
     margin-top: 50px; 
     margin-bottom: 80px;
     width: 960px;
     height: 400px;
     margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+.main-contact{
+    float: left;
+    margin-top: 50px; 
+    margin-bottom: 80px;
+    width: 960px;
+    height: 400px;
+    margin-left: 200px;
     margin-right: auto;
     padding-top: 20px;
     background-color: #ffffff;
@@ -189,9 +202,29 @@ textarea{
     float: left;
 }
 
+#linkhead{
+    color: #4aaaa5;
+    padding: 8px 4px 4px;
+    border-bottom: 2px solid #dddddd;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .link-img{
     height: 50px;
     width: 50px;
+    padding: 9px;
+    padding-top: 18px;
+}
+
+#sidebar{
+    float: right;
+    height: 140px;
+    width: 220px;
+    background-color: #fff;
+    margin-top: 50px;
+    margin-right: 55px;
+    border: 2px solid #dddddd;
 }
 
 footer{
